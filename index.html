@@ -1,220 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="icon" type="image/x-icon" href="img/online-shop.jpg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/27551d6060.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project</title>
-  <link rel="icon" type="image/x-icon" href="img/online-shop.jpg">
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/nav.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/27551d6060.js" crossorigin="anonymous"></script>
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
-</head>
-
-
-<body class="light-mode">
-
-  <nav>
-    <div class="topnav" id="myTopnav">
-      <div class="logo"><img src="img/online-shop.jpg" alt="" />
-        <img src="/img/moon.png" alt="" id="darkmode-icon">
-      </div>
-      <div class="nvl">
-        <a class="nav-link" href="#home" class="active"><strong>Home</strong></a>
-        <a class="nav-link" href="#news"><strong>About</strong></a>
-        <a class="nav-link" href="#contact"><strong>Services</strong></a>
-        <a class="nav-link" href="Contact.html"><strong>Contact Us</strong></a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-        <form class="srch" role="search">
-          <div id="srch">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-dark" type="submit"><img src="img/search.png" alt="" width="25"></button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </nav>
-
-  <section class="firstsection background">
-
-
-    <div class="  box-main">
-      <div class="firsthalf">
-        <div class="secondhalf">
-          <img class="img" src="img/online-shop.jpg" alt="" />
+  <body class="light-mode">
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <div class="logo">
+          <img src="img/online-shop.jpg" alt="" />
         </div>
-        <p class="text-big" style="color: black; font-family: 'Josefin Sans', sans-serif;"><strong>The Shopping place
-            for all needs!</strong></p>
-        <p class="text-small" style="color: black; font-family: 'Josefin Sans', sans-serif;">
-          Welcome! Find all the products you need all at great discounts.
-          This is the future of shopping.
-        </p>
-        <button type="button" class="btn btn-outline-dark ">Explore</button>
+        <div class="nvl">
+          <a class="nav-link" href="#home" class="active"
+            ><strong>Home</strong></a
+          >
+          <a class="nav-link" href="#news"><strong>About</strong></a>
+          <a class="nav-link" href="#contact"><strong>Services</strong></a>
+          <a class="nav-link" href="Contact.html"
+            ><strong>Contact Us</strong></a
+          >
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <form class="srch" role="search">
+            <div id="srch">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <!-- <button class="btn btn-outline-dark" type="submit">
+                <img src="img/search.png" alt="" width="25" />
+              </button> -->
+            </div>
+          </form>
+          <button id="themeToggleBtn" class="theme-toggle-btn">🌙</button>
+          <!-- Theme toggle button -->
+        </div>
       </div>
-    </div>
-  </section>
-  <section class="section">
-    <div class="para">
-      <p class="sectiontag m-2 text-big">OCEAN LIFE FUNDAMENTALS</p>
-      <p class="sectionsubtag text-small">When speaking about our global environment, a common adage to hear is that “we
-        know more about outer space than we do about the ocean.” Life in the ocean, they discovered, followed a simple
-        mathematical rule:
-        The abundance of an organism is closely linked to its body size. To put it another way, the smaller the
-        organism, the more
-        of them you find in the ocean. This exclusive Faunalytics Fundamental examines our relationships with ocean
-        life, exploring some of
-        the most important issues facing fishes, aquatic mammals, and other species, based on the best available and
-        current data. We hope you find the information useful in your advocacy, and in your day-to-day lives advocacy.
-        Please be sure to check out all of the source links embedded in the text and infographics below, and be sure to
-        check out the blog about what we included, and what we left out.</p>
-    </div>
-    <div class="fluid-img"><img src="https://source.unsplash.com/900x900/?nature,water" alt=""></div>
-  </section>
-  <hr>
+    </nav>
 
-  <section class="section section-left">
-    <div class="para">
-      <p class="sectiontag  text-big">MEET THE ANIMALS</p>
-      <p class="sectionsubtag m-2 text-small">Unlike companion animals, certain kinds of wildlife, and even farmed
-        animals,
-        there are relatively few opportunities to “get to know” ocean life. As with farmed animals, many people only get
-        close to or experience ocean creatures after they’ve already been killed, processed, and plated. In other cases,
-        people may “meet” animals like whales, dolphins, and other species in situations of extreme and unnatural
-        captivity, like zoos and aquariums. Even with activities like whale watching, it can be difficult to truly
-        “know” the vast range of ocean life out there. Below, we look at different categories of ocean life and just how
-        incredible they truly are. </p>
-    </div>
-    <div class="fluid-img"><img src="https://source.unsplash.com/900x900/?html,apple" alt=""></div>
-  </section>
-  <hr>
-  <section class="section">
-    <div class="para">
-      <p class="sectiontag text-big">ATTITUDES</p>
-      <p class="sectionsubtag text-small"> While most people don’t have a direct connection to ocean life, that doesn’t
-        stop people from having opinions about it! Whether it’s trophy fishing, marine conservation, pescetarianism, or
-        any other issue, all of us land-dwelling humans have a lot of ideas about the oceans, marine life, and what our
-        responsibilities to these amazing creatures are. Below, we explore some of the key attitudes people have about
-        the state of our oceans, and their protection. </p>
-    </div>
-    <div class="fluid-img"><img src="https://source.unsplash.com/900x900/?java,water" alt=""></div>
-  </section>
-  <hr>
-  <section class="section section-left">
-    <div class="para">
-      <p class="sectiontag text-big">HUMANS BEST FRIEND : DOG</p>
-      <p class="sectionsubtag m-2  text-small">Through the ages, people have claimed dogs as one of their closest, and
-        best
-        companions. Of all the domesticated animals, dogs serve the widest array of roles: protector, helper, lifesaver,
-        and companion. Dogs are incredible friends to people, and they’ve been companions through centuries. The
-        relationship between dogs and people is deep and old.
-        Dogs have proven themselves time and again to be loyal, kind, understanding, and have an indomitable spirit.
-        They greet us happily after what may have been the worst day of our lives and make us feel better with a wag of
-        their tail and a playful grin. </p>
-    </div>
-    <div class="fluid-img"><img src="https://source.unsplash.com/900x900/?html,apple" alt=""></div>
-  </section>
-  <hr>
+    <section class="firstsection background">
+      <div class="box-main">
+        <div class="firsthalf">
+          <div class="secondhalf">
+            <img class="img" src="img/online-shop.jpg" alt="" />
+          </div>
+          <p
+            class="text-big"
+            style="color: black; font-family: 'Josefin Sans', sans-serif"
+          >
+            <strong>The Shopping place for all needs!</strong>
+          </p>
+          <p
+            class="text-small"
+            style="color: black; font-family: 'Josefin Sans', sans-serif"
+          >
+            Welcome! Find all the products you need all at great discounts. This
+            is the future of shopping.
+          </p>
+          <button type="button" class="btn btn-outline-dark">Explore</button>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="para">
+        <p class="sectiontag m-2 text-big">OCEAN LIFE FUNDAMENTALS</p>
+        <p class="sectionsubtag text-small">
+          When speaking about our global environment, a common adage to hear is
+          that “we know more about outer space than we do about the ocean.” Life
+          in the ocean, they discovered, followed a simple mathematical rule:
+          The abundance of an organism is closely linked to its body size. To
+          put it another way, the smaller the organism, the more of them you
+          find in the ocean. This exclusive Faunalytics Fundamental examines our
+          relationships with ocean life, exploring some of the most important
+          issues facing fishes, aquatic mammals, and other species, based on the
+          best available and current data. We hope you find the information
+          useful in your advocacy, and in your day-to-day lives advocacy. Please
+          be sure to check out all of the source links embedded in the text and
+          infographics below, and be sure to check out the blog about what we
+          included, and what we left out.
+        </p>
+      </div>
+      <div class="fluid-img">
+        <img src="https://source.unsplash.com/900x900/?nature,water" alt="" />
+      </div>
+    </section>
+    <hr />
 
-  <section class="section">
-    <div class="para">
-      <p class="sectiontag m-2 text-big">HACKTOBERFEST</p>
-      <p class="sectionsubtag text-small">
-        Hacktoberfest is a movement to contribute to open source projects. This movement takes place during the month of October on Github and Gitlab.</p>
-    </div>
-    <div class="fluid-img"><img src="https://source.unsplash.com/900x900/?nature,water" alt=""></div>
-  </section>
-  <hr>
-  <!-- contributing section starts -->
+    <section class="section section-left">
+      <div class="para">
+        <p class="sectiontag text-big">MEET THE ANIMALS</p>
+        <p class="sectionsubtag m-2 text-small">
+          Unlike companion animals, certain kinds of wildlife, and even farmed
+          animals, there are relatively few opportunities to “get to know” ocean
+          life. As with farmed animals, many people only get close to or
+          experience ocean creatures after they’ve already been killed,
+          processed, and plated. In other cases, people may “meet” animals like
+          whales, dolphins, and other species in situations of extreme and
+          unnatural captivity, like zoos and aquariums. Even with activities
+          like whale watching, it can be difficult to truly “know” the vast
+          range of ocean life out there. Below, we look at different categories
+          of ocean life and just how incredible they truly are.
+        </p>
+      </div>
+      <div class="fluid-img">
+        <img src="https://source.unsplash.com/900x900/?html,apple" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section class="section">
+      <div class="para">
+        <p class="sectiontag text-big">ATTITUDES</p>
+        <p class="sectionsubtag text-small">
+          While most people don’t have a direct connection to ocean life, that
+          doesn’t stop people from having opinions about it! Whether it’s trophy
+          fishing, marine conservation, pescetarianism, or any other issue, all
+          of us land-dwelling humans have a lot of ideas about the oceans,
+          marine life, and what our responsibilities to these amazing creatures
+          are. Below, we explore some of the key attitudes people have about the
+          state of our oceans, and their protection.
+        </p>
+      </div>
+      <div class="fluid-img">
+        <img src="https://source.unsplash.com/900x900/?java,water" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section class="section section-left">
+      <div class="para">
+        <p class="sectiontag text-big">HUMANS BEST FRIEND : DOG</p>
+        <p class="sectionsubtag m-2 text-small">
+          Through the ages, people have claimed dogs as one of their closest,
+          and best companions. Of all the domesticated animals, dogs serve the
+          widest array of roles: protector, helper, lifesaver, and companion.
+          Dogs are incredible friends to people, and they’ve been companions
+          through centuries. The relationship between dogs and people is deep
+          and old. Dogs have proven themselves time and again to be loyal, kind,
+          understanding, and have an indomitable spirit. They greet us happily
+          after what may have been the worst day of our lives and make us feel
+          better with a wag of their tail and a playful grin.
+        </p>
+      </div>
+      <div class="fluid-img">
+        <img src="https://source.unsplash.com/900x900/?html,apple" alt="" />
+      </div>
+    </section>
+    <hr />
 
-  <div class="container_contributor d-flex justify-content-center">
+    <section class="section">
+      <div class="para">
+        <p class="sectiontag m-2 text-big">HACKTOBERFEST</p>
+        <p class="sectionsubtag text-small">
+          Hacktoberfest is a movement to contribute to open source projects.
+          This movement takes place during the month of October on Github and
+          Gitlab.
+        </p>
+      </div>
+      <div class="fluid-img">
+        <img src="https://source.unsplash.com/900x900/?nature,water" alt="" />
+      </div>
+    </section>
+    <hr />
+    <!-- contributing section starts -->
 
+    <div class="container_contributor d-flex justify-content-center">
+      <div class="contributing-heading" id="about">
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our Project Contributors</h1>
 
-    <div class="contributing-heading" id="about">
-      <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our Project Contributors</h1>
-
-
-      <div class="box">
-        <div class="contributors-2022">
-          <h2 class="contributors-heading">Names of contributors - 2022</h2>
-          <div class="inner-box">
-            <div class="inner-box1">
-              <ul>
-                <li>
-                  <a href="https://github.com/Naman-sharma00100">Naman Sharma</a>
-                </li>
-                <li>
-                  <a href="https://github.com/PriyanshuArora22">PriyanshuArora22</a>
-                </li>
-                <li>
-                  <a href="https://github.com/asimdm">Asim Ali</a>
-                </li>
-                <li>
-                  <a href="https://github.com/shagunZ">Shagun Mengi</a>
-                </li>
-                <li>
-                  <a href="https://github.com/harshit-paneri">Harshit Paneri</a>
-                </li>
-                <li>
-                  <a href="https://github.com/reayz">Reajul Haque Reayz</a>
-                </li>
-                <li>
-                  <a href="https://github.com/hijal">Hijikesh Hijal</a>
-                </li>
-                <li>
-                  <a href="https://github.com/sanjaymenaria03">Sanjay Menaria</a>
-                </li>
-                <li>
-                  <a href="https://github.com/rubenfreiria">Ruben Freiria</a>
-                </li>
-                <li>
-                  <a href="https://github.com/m-samik">Sami</a>
-                </li>
-                <li>
-                  <a href="https://github.com/akjalok">Alok Kumar Jha</a>
-                </li>
-                <li>
-                  <a href="https://github.com/himanshudadheech">Himanshu Dadheech</a>
-                </li>
-                <li>
-                  <a href="https://github.com/somya0808"> Somya Champawat</a>
-                </li>
-                <li>
-                  <a href="https://github.com/nikkhilmali"> Nikhil Mali</a>
-                </li>
-                <li>
-                  <a href="https://github.com/fathra"> FathRa</a>
-                </li>
-                <li>
-                  <a href="https://github.com/24shreya"> Shreya</a>
-                </li>
-                <li>
-                  <a href="https://github.com/akshi009"> Akshi Jain</a>
-                </li>
-              </ul>
+        <div class="box">
+          <div class="contributors-2022">
+            <h2 class="contributors-heading">Names of contributors - 2022</h2>
+            <div class="inner-box">
+              <div class="inner-box1">
+                <ul>
+                  <li>
+                    <a href="https://github.com/Naman-sharma00100"
+                      >Naman Sharma</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://github.com/PriyanshuArora22"
+                      >PriyanshuArora22</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://github.com/asimdm">Asim Ali</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/shagunZ">Shagun Mengi</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/harshit-paneri"
+                      >Harshit Paneri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://github.com/reayz">Reajul Haque Reayz</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/hijal">Hijikesh Hijal</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/sanjaymenaria03"
+                      >Sanjay Menaria</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://github.com/rubenfreiria">Ruben Freiria</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/m-samik">Sami</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/akjalok">Alok Kumar Jha</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/himanshudadheech"
+                      >Himanshu Dadheech</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://github.com/somya0808"> Somya Champawat</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/nikkhilmali"> Nikhil Mali</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/fathra"> FathRa</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/24shreya"> Shreya</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/akshi009"> Akshi Jain</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- contributing section ends -->
+    <!-- contributing section ends -->
 
-
-  <!-- <footer id="contact">
+    <!-- <footer id="contact">
     <div class="foot">
       <div class="bottom">
         <div class="newsletter">
@@ -249,131 +316,164 @@
      </ul>
     </div>
   </footer> -->
-  <!--======================================= MAIN FOOTER =========================== -->
+    <!--======================================= MAIN FOOTER =========================== -->
 
+    <div class="footer_section">
+      <!--======================================= FOOTER TOP SECTION START =========================== -->
+      <div class="subscriber_head">
+        <h1 id="free_daily_updates">Subscribe to our newsletter</h1>
 
-  <div class="footer_section">
+        <form action="" class="subscriber_search_box" method="get">
+          <input
+            class="subscriber_search_bar"
+            type="text"
+            placeholder="Enter your email"
+          />
 
-    <!--======================================= FOOTER TOP SECTION START =========================== -->
-    <div class="subscriber_head">
+          <button class="subscriber_button" type="submit">Subscribe</button>
+        </form>
+      </div>
 
-      <h1 id="free_daily_updates">Subscribe to our newsletter</h1>
+      <!--======================================= FOOTER TOP SECTION ENDS =========================== -->
 
+      <!--======================================= FOOTER MID SECTION START =========================== -->
 
-      <form action="" class="subscriber_search_box" method="get">
-
-        <input class="subscriber_search_bar" type="text" placeholder="Enter your email">
-
-
-        <button class="subscriber_button" type="submit">Subscribe</button>
-      </form>
-
-    </div>
-
-
-    <!--======================================= FOOTER TOP SECTION ENDS =========================== -->
-
-    <!--======================================= FOOTER MID SECTION START =========================== -->
-
-    <div class="subscriber_mid">
-
-      <div class="first_para">
-        <div class="footer_logo">
-          <h1>LOGO</h1>
-          <div class="footer_para">
-
-            <h3 id="footer_first_head">We are the team and we truly care for you!</h3>
-            <br>
+      <div class="subscriber_mid">
+        <div class="first_para">
+          <div class="footer_logo">
+            <h1>LOGO</h1>
+            <div class="footer_para">
+              <h3 id="footer_first_head">
+                We are the team and we truly care for you!
+              </h3>
+              <br />
+            </div>
           </div>
-        </div>
 
-        <div class="contacts">
-          <!-- <h4>Connect:
+          <div class="contacts">
+            <!-- <h4>Connect:
                         </h4> -->
-          <div class="icon_section">
-            <a class="footer_mid_icons" href=""><i class="fab fa-twitter footer_mid_icons_inner"></i></a>
-            <a class="footer_mid_icons" href=""><i class="fab fa-instagram footer_mid_icons_inner"></i></a>
-            <a class="footer_mid_icons" href=""><i class="fab fa-linkedin footer_mid_icons_inner"></i></a>
-            <a class="footer_mid_icons" href=""><i class="fab fa-youtube footer_mid_icons_inner"></i></a>
+            <div class="icon_section">
+              <a class="footer_mid_icons" href=""
+                ><i class="fab fa-twitter footer_mid_icons_inner"></i
+              ></a>
+              <a class="footer_mid_icons" href=""
+                ><i class="fab fa-instagram footer_mid_icons_inner"></i
+              ></a>
+              <a class="footer_mid_icons" href=""
+                ><i class="fab fa-linkedin footer_mid_icons_inner"></i
+              ></a>
+              <a class="footer_mid_icons" href=""
+                ><i class="fab fa-youtube footer_mid_icons_inner"></i
+              ></a>
+            </div>
           </div>
         </div>
 
+        <div class="second-para">
+          <div class="middle_para">
+            <div class="footer_About">
+              <h4 class="footer_About_para">
+                <a class="footer_About_head" href="#">About</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Terms of use</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Privacy Policy</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Risk Of Factor</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Risk Of Factor</a>
+              </h4>
+            </div>
+
+            <div class="footer_About">
+              <h4 class="footer_About_para">
+                <a class="footer_About_head" href="#">Policies</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Terms of use</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Privacy Policy</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Risk Of Factor</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Risk Of Factor</a>
+              </h4>
+            </div>
+
+            <div class="footer_About">
+              <h4 class="footer_About_para">
+                <a class="footer_About_head" href="#">What's New</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Terms of use</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Privacy Policy</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Risk Of Factor</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Risk Of Factor</a>
+              </h4>
+            </div>
+
+            <div class="footer_About">
+              <h4 class="footer_About_para">
+                <a class="footer_About_head" href="#">Legal</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Terms of use</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Privacy Policy</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Risk Of Factor</a>
+              </h4>
+              <h4 class="footer_About_para">
+                <a class="footer_About_links" href="">Risk Of Factor</a>
+              </h4>
+            </div>
+          </div>
+
+          <div class="last_para">
+            <div class="footer_last">
+              <h4 class="quick_signup">Quick Signup</h4>
+              <form action="" class="footer_form_mid" method="get">
+                <input
+                  class="footer_mid_subscribe_bar"
+                  type="text"
+                  placeholder="Enter Your email"
+                />
+
+                <button class="footer_mid_subscriber_button" type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
 
-
-
-      <div class="second-para">
-        <div class="middle_para">
-
-          <div class="footer_About">
-            <h4 class="footer_About_para"><a class="footer_About_head" href="#">About</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Terms of use</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Privacy Policy</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h4>
-
-
-          </div>
-
-          <div class="footer_About">
-            <h4 class="footer_About_para"><a class="footer_About_head" href="#">Policies</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Terms of use</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Privacy Policy</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h4>
-          </div>
-
-          <div class="footer_About">
-            <h4 class="footer_About_para"><a class="footer_About_head" href="#">What's New</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Terms of use</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Privacy Policy</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h4>
-
-
-          </div>
-
-          <div class="footer_About">
-            <h4 class="footer_About_para"><a class="footer_About_head" href="#">Legal</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Terms of use</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Privacy Policy</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h4>
-            <h4 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h4>
-          </div>
-
-
-        </div>
-
-        <div class="last_para">
-
-          <div class="footer_last">
-            <h4 class="quick_signup">Quick Signup</h4>
-            <form action="" class="footer_form_mid" method="get">
-
-              <input class="footer_mid_subscribe_bar" type="text" placeholder="Enter Your email">
-
-
-              <button class="footer_mid_subscriber_button" type="submit">Subscribe</button>
-            </form>
-          </div>
-
-
-        </div>
+      <div class="copyright-txt">
+        <a href="#" class="copyright">Shop © 2022</a>
       </div>
+
+      <!--======================================= FOOTER MID SECTION ENDS =========================== -->
     </div>
 
-    <div class="copyright-txt">
-      <a href="#" class="copyright">Shop © 2022</a>
-    </div>
+    <!--======================================= MAIN FOOTER ENDS =========================== -->
 
-    <!--======================================= FOOTER MID SECTION ENDS =========================== -->
-  </div>
-
-  <!--======================================= MAIN FOOTER ENDS =========================== -->
-
-
-  <script src="console.js"></script>
-  <script src="script.js"></script>
-</body>
-
+    <script src="console.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
