@@ -1,3 +1,56 @@
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #212529;
+  color: white;
+}
+
+.topnav.dark-mode {
+  background-color: #212529;
+}
+
+.topnav a.dark-mode {
+  color: white;
+}
+
+.srch input.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+.topnav.light-mode {
+  background-color: #fff;
+}
+
+.topnav a.light-mode {
+  color: #000;
+}
+
+.srch input.light-mode {
+  background-color: white;
+  color: black;
+}
+
+/* Button styling */
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #956f6fb6;
+}
+
+.theme-toggle-btn:hover {
+  color: white;
+}
+
+
 .topnav {
     overflow: hidden;
     background-color: #212529;
@@ -11,7 +64,7 @@
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2b6;
+    color: #956f6fb6;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
